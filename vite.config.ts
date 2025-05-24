@@ -4,7 +4,6 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/AdminSynch/',
   plugins: [tsconfigPaths({ root: __dirname }), react()],
   build: {
     rollupOptions: {
